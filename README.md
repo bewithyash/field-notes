@@ -8,6 +8,7 @@ Full archive (rendered): **[blog.imperonlabs.com](https://blog.imperonlabs.com)*
 > All client case studies are anonymized. Vulnerability disclosures are published after fix / coordinated timelines.
 
 ## Vulnerability research & disclosures (CVE / GHSA)
+- **Writing Past the Edge — CVE-2026-112456** (Apple HFS `hfs.util` heap out-of-bounds write; fixed in macOS Golden Gate 27.2; credit: Jihwan Yoon, Yash Pandya, Parth Raval) · [post](https://blog.imperonlabs.com/apple-hfs-util-heap-oob-write-cve-2026-112456.html)
 - **A Signed Int That Wrapped the Allocator — CVE-2026-104016** (Jackson/protobuf string-length overflow) · [post](https://blog.imperonlabs.com/jackson-protobuf-string-length-overflow-cve-2026-104016.html)
 - **The Same Overflow, One Function Over — CVE-2026-110747** (protobuf map-key overflow) · [post](https://blog.imperonlabs.com/jackson-protobuf-map-key-overflow-cve-2026-110747.html)
 - **Morphing a Grayscale Frame Into an RGBA One** (ImageMagick heap overflow — GHSA-x48p-6655-8qgv) · [post](https://blog.imperonlabs.com/imagemagick-morph-heap-overflow-channel-map.html)
